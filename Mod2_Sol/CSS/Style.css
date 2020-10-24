@@ -16,8 +16,8 @@ section{
 	border: 2px solid black;
 	background-color: #9C9C9C;
 	width: 100%;
-	height: 210px;
-	overflow: auto;
+	height: 210px; /* Si no quiero que aparezca con barras deslizantes dentro del contenido */
+	overflow: auto; /* Y quiero que el bloque cambie con el texto de altura, solo borro estas dos*/
 }
 
 p{
